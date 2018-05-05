@@ -12,4 +12,7 @@
 <190>May  1 16:01:36 dhcpd: DHCPOFFER on 192.0.2.5 to 52:54:00:23:42:ff via lagg0_vlan2342
 <190>May  1 15:28:11 dhcpd: DHCPREQUEST for 192.0.2.6 from 52:54:00:23:42:ff via vtnet1
 <190>May  1 16:01:36 dhcpd: DHCPREQUEST for 192.0.2.5 (172.29.96.1) from 52:54:00:23:42:ff via lagg0_vlan2342
-<190>May  1 15:28:11 dhcpd: DHCPACK on 192.0.2.6 to 52:54:00:23:42:ff via vtnet1
+<190>May  1 15:28:11 dhcpd: DHCPACK on 192.0.2.6 to 52:54:00:23:42:ff via lagg0_vlan2342
+<190>May  1 15:28:11 dhcpd: DHCPACK on 192.0.2.6 to 52:54:00:23:42:ff (s-net) via lagg0_vlan2342
+<190>May  5 17:27:29 dhcpd: DHCPRELEASE of 192.0.2.7 from 52:54:00:23:42:ff via vtnet39 (not found)
+<190>May  5 17:27:29 dhcpd: reuse_lease: lease age 801 (secs) under 25% threshold, reply with unaltered, existing lease for 192.0.2.7
