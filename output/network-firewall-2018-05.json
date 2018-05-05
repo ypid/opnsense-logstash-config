@@ -1,8 +1,8 @@
 {
-  "#dst_hostname": "192.0.2.42",
+  "#dst_host": "192.0.2.42",
   "#logstash_host": "gnu.example.com",
   "#source": "network-firewall",
-  "#src_hostname": "192.0.2.23",
+  "#src_host": "192.0.2.23",
   "@timestamp": "2023-05-23T23:23:23.555Z",
   "action": "block",
   "aid": 16940,
@@ -36,10 +36,10 @@
   "tos": 0
 }
 {
-  "#dst_hostname": "224.0.0.1",
+  "#dst_host": "224.0.0.1",
   "#logstash_host": "gnu.example.com",
   "#source": "network-firewall",
-  "#src_hostname": "192.0.2.50",
+  "#src_host": "192.0.2.50",
   "@timestamp": "2023-05-23T23:23:23.555Z",
   "action": "block",
   "aid": 0,
@@ -71,10 +71,10 @@
   "tos": 192
 }
 {
-  "#dst_hostname": "193.99.144.80",
+  "#dst_host": "193.99.144.80",
   "#logstash_host": "gnu.example.com",
   "#source": "network-firewall",
-  "#src_hostname": "8.8.8.8",
+  "#src_host": "8.8.8.8",
   "@timestamp": "2023-05-23T23:23:23.555Z",
   "action": "block",
   "aid": 0,
@@ -170,7 +170,7 @@
 {
   "#logstash_host": "gnu.example.com",
   "#source": "network-firewall",
-  "#src_hostname": "192.0.2.5",
+  "#src_host": "192.0.2.5",
   "@timestamp": "2023-05-23T23:23:23.555Z",
   "host": "logs",
   "msg": "DHCPOFFER",
@@ -189,7 +189,7 @@
 {
   "#logstash_host": "gnu.example.com",
   "#source": "network-firewall",
-  "#src_hostname": "192.0.2.6",
+  "#src_host": "192.0.2.6",
   "@timestamp": "2023-05-23T23:23:23.555Z",
   "host": "logs",
   "msg": "DHCPREQUEST",
@@ -208,7 +208,7 @@
 {
   "#logstash_host": "gnu.example.com",
   "#source": "network-firewall",
-  "#src_hostname": "192.0.2.5",
+  "#src_host": "192.0.2.5",
   "@timestamp": "2023-05-23T23:23:23.555Z",
   "dhcp_relay_ip": "172.29.96.1",
   "host": "logs",
@@ -228,7 +228,7 @@
 {
   "#logstash_host": "gnu.example.com",
   "#source": "network-firewall",
-  "#src_hostname": "192.0.2.6",
+  "#src_host": "192.0.2.6",
   "@timestamp": "2023-05-23T23:23:23.555Z",
   "host": "logs",
   "msg": "DHCPACK",
