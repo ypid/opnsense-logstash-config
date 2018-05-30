@@ -17,3 +17,5 @@ logstash-plugin install logstash-filter-opnsensefilter
 Once it is installed, (re)start Logstash.
 
 The configuration is integration tested, refer to https://github.com/geberit/logstash-config-integration-testing for details.
+
+Note that this configuration is a fork of the config started by [fabianfrz](https://github.com/fabianfrz/opnsense-logstash-config). Refer to https://github.com/fabianfrz/opnsense-logstash-config/pull/4 for details.
